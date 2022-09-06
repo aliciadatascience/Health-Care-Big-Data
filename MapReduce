@@ -5,3 +5,4 @@ MapReduce is big data system that provides the following capability:
     2) distributed computation through programming interface MapReduce
     3) take care of fault tolerance systems in order to cope with constant system failures on large distributed systems that are built on top of commodity hardware
   
+To use an MapReduce to compute logistic regression requires the iterative process. Every iteration requires loading the data two times, one for compute the map fuctions, one for compute the re use function. And we will have to do this iteration many many times, so it's not efficient. In summary, MapReduce is not optimized for iteration or multistage computation.
