@@ -1,0 +1,40 @@
+Application: 
+    1. Predictive modeling
+    2. Computational phenotyping
+    3. Patient similarity
+
+/Challenges for predictive modeling:
+    1. Millions of patients, have diagonisis information, medication information etc.
+    2. Many models to be built: predictive model is not a single algorithm, it's a sequence of computational tasks. For example, including cohort constructure, feature construction, cross validation, feature selection etc.
+    
+/Challenges for computational phenotyping:
+    1. Input is the raw patient data, such as demographic information, diagnosis, medications, procedure, lab tests and clnical notes.
+           EHR(electronic health record is very unreliable, including missing data, reducdant information. At the same time, even the disease diagonisis is present, it is not necessary to confirm the patient has the disease. Since they can come to clinics for check up or for screening purpose. So we have to check addition information, such as medician and lab test to really confirm this patient has some disease.
+           
+/Goal for patient similarity:
+    Group patients, based on what treatment they are taking. Look at what outcome they're getting, then recommend the treatment with the best outcome to the current patitent.
+
+/Predictive modeling pipeline:
+    1. Prediction target;
+    2. Cohort construction: construct the cohort of relevant patients for the study
+    3. Feature construction;
+    4. Feature selection;
+    5. predictive model
+    6. performance evaluation
+
+// cohort construction
+        1. prospective cohort: 
+            first identify the cohort of patients, then decide what information to collect and how to collect them. then start collect;
+        2. retrospective cohort
+            first identify the patient cohort from existing data, then retrieve data
+        3. cohort study
+        4. case-control study
+
+// feature construction
+Patient event sequences: Observation window == index data == prediction window == diagnosis data
+/// observation and prediction window are two important parameters that going to impact the model performance.
+    observation window includes event sequence data, which are corresponding to different types of clinical events:diagnosis, symptoms, medictions, patient demographics, lab tests and vital signs etc.
+
+// evaluation
+    training error is not very useful, and testing error is the key metric. The classical approach for evaluation is through cross-validation process.
+    The main idea behind cross validation is to iteratively split a data set into training and validation sets. We build the model on the training set, and test the model on the validation set. Finally the performance matrix are aggregated across this iterations, often by taking the averager. There are 3 methods:leave-1-out CV, k-fold cv, and randomized cv.
