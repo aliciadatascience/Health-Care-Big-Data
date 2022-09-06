@@ -1,0 +1,7 @@
+Hadoop is the Java implementation of MapReduce and hadoop distributed file system(HDFS).
+
+MapReduce is big data system that provides the following capability:
+    1) distributed storage for large dataset through hadoop distributed file system
+    2) distributed computation through programming interface MapReduce
+    3) take care of fault tolerance systems in order to cope with constant system failures on large distributed systems that are built on top of commodity hardware
+  
