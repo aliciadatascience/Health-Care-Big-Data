@@ -1,0 +1,21 @@
+In order to deal with big data set and implement your algorithm to process big dataset, we need big data systems.
+
+Hadoop: distributed disk-based big data system
+Spark: distributed in-memory big data system
+
+Generally, spark is much faster than Hadoop.
+
+Building blocks of Hadoop:
+    core infrastructure of Hadoop
+    MapReduce programming model
+    HDFS storage system
+    High-level processing system: Hive, Pig etc.
+
+Building blocks of Spark:
+    Spark SQL
+    Spark Streaming
+    MLlib for large scale ML library using Spark
+    GraphX for processing graph data using Spark
+    
+    
+    
