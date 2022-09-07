@@ -1,0 +1,7 @@
+Phenotypes are medical concepts such as diseases or conditions.
+
+Phyenotypes are not only for disease diagnosis,, but also used for predicting healthcare cost, readmission risk, supporting genomic studies, and healthcare quality measurement.
+
+Computational phenotyping is about converting raw electronic health record through phenotyping algorithms into a set of meaningful medical concepts(phenotypes)
+
+phenotyping methods: supervised learning, unsupervised learning
