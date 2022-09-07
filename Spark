@@ -1,0 +1,4 @@
+The key concept behind Spark is Resilient Distributed Dataset (RDD).
+Spark can better support iterative algorithms.
+
+Spark Core is a home API for RDD. Spark Core provides many APIs for building and manipulating this RDD.
