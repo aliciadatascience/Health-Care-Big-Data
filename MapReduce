@@ -7,4 +7,4 @@ MapReduce is big data system that provides the following capability:
   
 To use an MapReduce to compute logistic regression requires the iterative process. Every iteration requires loading the data two times, one for compute the map fuctions, one for compute the re use function. And we will have to do this iteration many many times, so it's not efficient. In summary, MapReduce is not optimized for iteration or multistage computation.
 
-MapReduce 
+MapReduce will transform the data using Map by dividing data into key/value pairs, getting the output from a map as an input, and aggregating data together by Reduce.
