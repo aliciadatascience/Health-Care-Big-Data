@@ -15,8 +15,13 @@ Predictive models:
         
  2) regression: target y is continuous
     metrics:
-        mean absolute error
-        mean squared error
-        R square
+        1) mean absolute error(MAE)
+            MAS is more robust against the outliers, but the absolute value is not differentiable.
+        2) mean squared error(MSE)
+            MSE is easier to work with because the derivative of the squre term is linear, but MSE will greatly affected by outliers because of the square term as well.
+        3) R square (coefficient of determination)
+            1 means fit perfect, 0 means not fit. 
+            It can also be negative, which means the predictive model performed worse than a simple average over the original data.
+            R square = 1 - MSE/variance
  
  
