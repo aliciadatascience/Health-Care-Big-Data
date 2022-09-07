@@ -1,0 +1,22 @@
+Predictive models:
+1) classification: target variable y is either binary or categorical.
+    metrics: 
+        1). true positive rate = sensitivity = recall: true positive/condition positive = true positive / (true positive + False negative);
+        2). false negative rate = false negative / condition positive = 1 - true positive rate
+        3). false positive rate = false positive / condition negative = false positive / (false positive + true negative)
+        4). true negative rate = specificity = true negative / condition negative = true negative / (true negative + false positive)
+        5) prevalence = condition positive / total population, which measures how likely the disease occurs in the total population.
+        6) positive predictive values = precision = True positive / prediction outcome positive = True positive / (true positive + false positive)
+        7) negative predictive value = true negative / prediction outcome negative = true negative / (true negative + false negative)
+        8) F1 score
+        9) accuracy: (true positive + true negative)/total population
+        10) area under the ROC(receiver operating characteristic) curve(AUC): ROC curve provide a way to compare different classifiers as predition boundary is varied. ROC curves is ploted by true positive rate against the false positive rate at various threshold values.
+        Since AUC doesn't depend on the choice of the threshold, it becomes the most popular performance metric for classification problems.
+        
+ 2) regression: target y is continuous
+    metrics:
+        mean absolute error
+        mean squared error
+        R square
+ 
+ 
