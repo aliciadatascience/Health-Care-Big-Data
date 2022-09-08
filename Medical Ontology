@@ -15,3 +15,6 @@
 
 3. LOINC: 
     LOINC is a standard for lab and clinical observation, and are created mainly to capturing lab test.
+
+4. NDC(National Drug Code)
+    Include three parts: labeler code, product code and package code
