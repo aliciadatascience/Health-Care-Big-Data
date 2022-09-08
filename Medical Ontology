@@ -1,0 +1,17 @@
+1. ICD(International Classification of Diseases) code for diagnosis
+    The focus of ICD codes is to categorize diseases
+    ICD-9: 5 characters(3 category, 1 subcategory, 1 subclassification)
+    ICS-10: 7 alphanumerical characters( 3 disease category. 1 etiology of disease, 1 body part, 1 severity/vital details, 1 for specificity)
+    
+
+2. CPT(current procedure terminology)
+    The focus of CPT is to describe medical, surgical, and diagnostic services.
+    Mainly used by insurance company to determine how much to pay for a medical service.
+    5 digitsc code (3 categories): 
+        1) Category I: widely performed procedures
+        2) Category II: 4 digits + "F" for quality metrics
+        3) Category III: 4 digits + "T" for experimental use
+        
+
+3. LOINC: 
+    LOINC is a standard for lab and clinical observation, and are created mainly to capturing lab test.
