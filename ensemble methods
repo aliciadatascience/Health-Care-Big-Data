@@ -1,5 +1,5 @@
 Gradient Desent
-    Gradient descent is a basic optimization method that has widely used in ML.
+    Gradient descent is an optimization algorithm for minimizing the cost.
 
 Stochastic Gradient Descent Method:
     SGD is a variant of gradient descent for handing big data set. In traditional Gradient Descent Methods, we have to compute the likelihooe of the entire dataset, then compute the gradient of the entire dataset, then repeat many times.
