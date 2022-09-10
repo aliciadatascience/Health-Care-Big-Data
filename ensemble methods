@@ -1,6 +1,11 @@
 Gradient Desent
     Gradient descent is an optimization algorithm for minimizing the cost.
 
+Commonly applied activation functions(once the linear component is applied to the input, a non-linear function is applied to it.)
+    sigmoid: generate a more smooth range of values between 0 and 1;
+    ReLU(rectified linear units): The output of the function is X when X > 0 and 0 for X < 0.
+    softmax: similar to the sigmoid function, with the only difference being that the outputs are normalized to sum up to 1.
+
 Stochastic Gradient Descent Method:
     SGD is a variant of gradient descent for handing big data set. In traditional Gradient Descent Methods, we have to compute the likelihooe of the entire dataset, then compute the gradient of the entire dataset, then repeat many times.
     SGD compute the likelihood function and the gradient on a random subset of data points.
