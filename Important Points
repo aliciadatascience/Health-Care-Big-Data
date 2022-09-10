@@ -1,0 +1,32 @@
+Gradient Desent
+    Gradient descent is an optimization algorithm for minimizing the cost.
+
+Commonly applied activation functions(once the linear component is applied to the input, a non-linear function is applied to it.)
+    1). sigmoid: generate a more smooth range of values between 0 and 1;
+    2). ReLU(rectified linear units): The output of the function is X when X > 0 and 0 for X < 0. The major benefit of using ReLU is that it has a constant derivative value for all inputs greater than 0. The constant derivative value helps the netowork to train faster.
+    3). softmax: similar to the sigmoid function, with the only difference being that the outputs are normalized to sum up to 1.
+
+Stochastic Gradient Descent Method:
+    SGD is a variant of gradient descent for handing big data set. In traditional Gradient Descent Methods, we have to compute the likelihooe of the entire dataset, then compute the gradient of the entire dataset, then repeat many times.
+    SGD compute the likelihood function and the gradient on a random subset of data points.
+
+Bias and Variance
+    1. Bias refers to the prediction error due to the wrong modeling assumption.
+    2. Variance refers to the error from the sensitivity to small fluctuation in the training dataset. If high variance means more scattered.
+
+Batches:
+    While training a neural network, instead of sending the entire input in one, we divide in input into several chunks of equal size randomly. Training the data on the batches makes the model more generalized as compared to the model built when the entire data set is fet to the network.
+
+Epochs:
+    An epoch is defined as a single training iteration of all batches in both forward and back propagations. Therefore, 1 epoch is a single forward and backward pass of the entire input data.
+    
+ Dropout: 
+    A regularization technique which prevents over fitting.
+ 
+ CNN and RNN:
+    CNN are basically applied on image data.
+    RNN are used especially for sequential data where the previous output is used to predict the next one. The networks have loops within them. The loops gives them the capability to store information about the previous words for some time to be able to predict the output.
+
+Vanishing/Exploding Gradient problems:
+    Theses two problems arises in cases of recurrent neural networks where long term dependencies are very important for the network to remember.
+    It occurred when the gradient of activation function is too small/large.
