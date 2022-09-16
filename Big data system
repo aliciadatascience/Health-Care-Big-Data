@@ -13,8 +13,14 @@ Building blocks of Hadoop:
 
 Building blocks of Spark:
     Spark SQL
-    Spark Streaming
-    MLlib for large scale ML library using Spark
+    Spark Streaming（实时处理）
+    MLlib for large scale ML library using Spark(algorithms that Spark support):
+        1). Classification: logistic regression, linear support vector machine, naive bayes, classification tree
+        2). regression: generalized linear model, regression tree
+        3). collaborative filtering: alternating least squares(ALS)
+        4). clustering: k-means
+        5). Decomposition: singular value decomposition(SVD), PCA
+        
     GraphX for processing graph data using Spark
     
     
